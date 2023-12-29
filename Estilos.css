@@ -215,6 +215,45 @@
     font-weight: 700;
     line-height: 45px;
   }
+
+  .tarjetas {
+    display: grid;
+    grid-column: 50% 50%;
+  }
+
+  .mision {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 17%;
+    margin-left: 24%;
+    text-align: justify;
+  }
+
+  .vision {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 17%;
+    margin-left: 14%;
+    margin-right: 24%;
+  }
+
+  .subTemTarj {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .ParrTemTarj {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
 
 /*tablet*/
@@ -394,6 +433,45 @@
     font-weight: 700;
     line-height: 45px;
   }
+
+  .tarjetas {
+    display: grid;
+    grid-column: 50% 50%;
+  }
+
+  .mision {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 17%;
+    margin-left: 24%;
+    text-align: justify;
+  }
+
+  .vision {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 17%;
+    margin-left: 14%;
+    margin-right: 24%;
+  }
+
+  .subTemTarj {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .ParrTemTarj {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
 }
 
 /*Movil*/
@@ -517,8 +595,8 @@
     line-height: normal;
   }
 
-/*SECCION NOSOTROS*/
-.CuadroUno {
+  /*SECCION NOSOTROS*/
+  .CuadroUno {
     background: #757a4e;
   }
 
@@ -564,7 +642,45 @@
     font-weight: 500;
     line-height: 25px;
   }
-}
 
+  .tarjetas {
+    display: grid;
+    grid-row: 50% 50%;
+  }
 
+  .mision {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 5%;
+    text-align: justify;
+  }
+
+  .vision {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 5%;
+    text-align: justify;
+  }
+
+  .subTemTarj {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .ParrTemTarj {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
 }

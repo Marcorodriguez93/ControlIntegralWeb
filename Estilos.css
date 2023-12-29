@@ -472,13 +472,13 @@
   }
 
   .justText {
-    margin: 5% 11.7% 0% 11.7%;
+    margin: 7% 11.7% 0% 11.7%;
   }
 
   .TextMap {
     color: #c0c0c0;
     font-family: Jost;
-    font-size: 45px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -492,6 +492,187 @@
     background-image: url(Imagenes/mapa.png);
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  /*SECCION PRODUCTOS*/
+
+  .cuadroDos {
+    background: #4d4b50;
+  }
+
+  .gpoSubProd {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtemaPro {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 5.5% 0% 0% 11.7%;
+  }
+
+  .parrafoCuadroProd {
+    text-align: justify;
+    color: #c0c0c0;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 140.625% */
+    margin: 1% 11.7% 5% 11.7%;
+  }
+
+  .strongDos {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  .contCar {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #574b8b;
+  }
+
+  .imgSta {
+    width: 63%;
+    height: auto;
+    margin: 0% 0% 10% 2%;
+  }
+
+  .imgStaDos {
+    width: 100%;
+    height: auto;
+    margin: 0% 0% 10% 2%;
+  }
+
+  .subProd {
+    color: #fff;
+    text-align: start;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 12% 0% 5% 0%;
+  }
+
+  .temProd {
+    color: #c0c0c0;
+    text-align: start;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px; /* 104% */
+    margin-bottom: 5%;
+  }
+
+  .parrProd {
+    text-align: justify;
+    color: #fff;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 20% 20% 0%;
+  }
+
+  .contCarEmp {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: white;
+  }
+
+  .subProdEmp {
+    color: #000;
+    text-align: start;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 12% 10% 5% 26.8%;
+  }
+
+  .temProdEmp {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px; /* 104% */
+    margin: 0px 0px 35px 182px;
+  }
+
+  .parrProdEmp {
+    color: #1e1e1e;
+    text-align: justify;
+    font-family: Jost;
+    font-size: normal;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 42px 182px;
+  }
+
+  .bloques {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: #574b8b;
+    height: auto;
+  }
+
+  .bloqueImagen {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    height: auto;
+    margin: 10% 0% 10% 22.3%;
+  }
+
+  .bloqueTexto {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 100%;
+    height: auto;
+  }
+
+  .bloquesEmp {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: white;
+    height: auto;
+  }
+
+  .bloqueTextoEmp {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 5%;
+    height: auto;
+  }
+
+  .bloqueImagenEmp {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+  }
+
+  .carousel-control-next /*, .carousel-indicators */ {
+    filter: invert(100%);
   }
 }
 
@@ -929,7 +1110,7 @@
   }
 
   .justText {
-    margin: 5% 11.7% 0% 11.7%;
+    margin: 7% 11.7% 0% 11.7%;
   }
 
   .TextMap {
@@ -949,6 +1130,189 @@
     background-image: url(Imagenes/mapa.png);
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  /*SECCION PRODUCTOS*/
+
+  .cuadroDos {
+    background: #4d4b50;
+    margin-top: -40%;
+  }
+
+  .gpoSubProd {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtemaPro {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 5.5% 0% 0% 11.7%;
+  }
+
+  .parrafoCuadroProd {
+    text-align: justify;
+    color: #c0c0c0;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px; /* 140.625% */
+    margin: 1% 11.7% 5% 11.7%;
+  }
+
+  .strongDos {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .contCar {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #574b8b;
+  }
+
+  .imgSta {
+    width: 63%;
+    height: auto;
+    margin: 0% 0% 10% 2%;
+  }
+
+  .imgStaDos {
+    width: 100%;
+    height: auto;
+    margin: 0% 0% 10% 2%;
+  }
+
+  .subProd {
+    color: #fff;
+    text-align: start;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 12% 0% 5% 0%;
+  }
+
+  .temProd {
+    color: #c0c0c0;
+    text-align: start;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px; /* 104% */
+    margin-bottom: 5%;
+  }
+
+  .parrProd {
+    text-align: justify;
+    color: #fff;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 20% 20% 0%;
+  }
+
+  .contCarEmp {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: white;
+  }
+
+  .subProdEmp {
+    color: #000;
+    text-align: start;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 12% 10% 5% 26.8%;
+  }
+
+  .temProdEmp {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px; /* 104% */
+    margin: 0px 0px 35px 182px;
+  }
+
+  .parrProdEmp {
+    color: #1e1e1e;
+    text-align: justify;
+    font-family: Jost;
+    font-size: normal;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 42px 182px;
+  }
+
+  .bloques {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: #574b8b;
+    height: auto;
+  }
+
+  .bloqueImagen {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    height: auto;
+    margin: 10% 0% 10% 22.3%;
+    opacity: 0.1;
+  }
+
+  .bloqueTexto {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    height: auto;
+  }
+
+  .bloquesEmp {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: white;
+    height: auto;
+  }
+
+  .bloqueTextoEmp {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 5%;
+    height: auto;
+  }
+
+  .bloqueImagenEmp {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+  }
+
+  .carousel-control-next /*, .carousel-indicators */ {
+    filter: invert(100%);
   }
 }
 
@@ -1407,5 +1771,49 @@
   .TextMobile {
     font-size: 15px;
     line-height: 15px;
+  }
+
+  /*SECCION PRODUCTOS*/
+
+  .cuadroDos {
+    margin-top: -700px;
+    background: #4d4b50;
+  }
+
+  .gpoSubProd {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtemaPro {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5.5% 0% 0% 11.7%;
+  }
+
+  .parrafoCuadroProd {
+    text-align: justify;
+    color: #c0c0c0;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 15px; /* 140.625% */
+    margin: 1% 11.7% 5% 11.7%;
+  }
+
+  .strongDos {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
   }
 }

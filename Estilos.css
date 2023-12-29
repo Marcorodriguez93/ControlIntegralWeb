@@ -1,0 +1,394 @@
+/*Escritorio*/
+@media (min-width: 1024px) and (max-width: 1980px) {
+  /* ENCABEZADO*/
+  .encabezado {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    margin-top: 2%;
+  }
+
+  .logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 65%;
+    height: auto;
+    margin-left: 27%;
+  }
+
+  .contBtns {
+    width: 100%;
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-left: 14%;
+  }
+
+  .btnNavUno {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 700;
+    font-size: 18px;
+    width: 75%;
+    height: 100%;
+    padding: 4% 0%;
+    border: none;
+  }
+
+  .btnNavUno:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+
+  .btnNavDos {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 700;
+    font-size: 18px;
+    width: 75%;
+    height: 100%;
+    padding: 4% 0%;
+    margin-left: -17%;
+    border: none;
+  }
+
+  .btnNavDos:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+
+  .btnNavTres {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 700;
+    font-size: 18px;
+    width: 75%;
+    height: 100%;
+    padding: 4% 0%;
+    margin-left: -35%;
+    border: none;
+  }
+
+  .btnNavTres:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+
+  .btnNavCuatro {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 700;
+    font-size: 18px;
+    width: 75%;
+    height: 100%;
+    padding: 4% 0%;
+    margin-left: -55%;
+    border: none;
+  }
+
+  .btnNavCuatro:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+
+  .btnNavCinco {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 700;
+    font-size: 18px;
+    width: 75%;
+    height: 100%;
+    margin-left: -75%;
+    border: none;
+  }
+
+  .btnNavCinco:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* ENCABEZADO*/
+  .encabezado {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    margin-top: 2%;
+  }
+
+  .logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 65%;
+    height: auto;
+    margin-left: 27%;
+  }
+
+  .contBtns {
+    width: 100%;
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-left: 14%;
+  }
+
+  .btnNavUno {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 16px;
+    width: 75%;
+    height: 100%;
+    padding: 4% 0%;
+    border: none;
+  }
+
+  .btnNavUno:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+
+  .btnNavDos {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 16px;
+    width: 75%;
+    height: 100%;
+    padding: 4% 0%;
+    margin-left: -17%;
+    border: none;
+  }
+
+  .btnNavDos:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+
+  .btnNavTres {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 16px;
+    width: 75%;
+    height: 100%;
+    padding: 4% 0%;
+    margin-left: -35%;
+    border: none;
+  }
+
+  .btnNavTres:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+
+  .btnNavCuatro {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 16px;
+    width: 75%;
+    height: 100%;
+    padding: 4% 0%;
+    margin-left: -55%;
+    border: none;
+  }
+
+  .btnNavCuatro:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+
+  .btnNavCinco {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 16px;
+    width: 75%;
+    height: 100%;
+    margin-left: -75%;
+    border: none;
+  }
+
+  .btnNavCinco:hover {
+    border-radius: 10px;
+    background: #574b8b;
+    cursor: pointer;
+    width: 75%;
+    height: 100%;
+  }
+}
+
+/*Movil*/
+@media (min-width: 320px) and (max-width: 767px) {
+
+  /* ENCABEZADO*/
+  .encabezado.encabezadoMobile {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    align-items: center;
+
+  }
+
+  .contImg.contImgMobile {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .contBtns.contBtnsMobile {
+    width: 100%;
+    height: auto;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-left: 14%;
+  }
+
+  .btnNavUno.btnNavUnoMobile {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 300;
+    font-size: 18px;
+    width: 75%;
+    height: 90%;
+    border: none;
+  }
+
+  .btnNavDos.btnNavDosMobile {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 300;
+    font-size: 18px;
+    width: 75%;
+    height: 90%;
+    border: none;
+  }
+
+  .btnNavTres.btnNavTresMobile {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 300;
+    font-size: 18px;
+    width: 75%;
+    height: 90%;
+    border: none;
+  }
+
+  .btnNavCuatro.btnNavCuatroMobile {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 300;
+    font-size: 18px;
+    width: 75%;
+    height: 90%;
+    border: none;
+  }
+
+  .btnNavCinco.btnNavCincoMobile {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #b7c0d7;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Jost;
+    font-weight: 300;
+    font-size: 18px;
+    width: 75%;
+    height: 90%;
+    border: none;
+  }
+}

@@ -254,6 +254,188 @@
     font-weight: 400;
     line-height: normal;
   }
+
+  .Valores {
+    display: grid;
+    grid-column: 50% 50%;
+    border-top: 3px solid #574b8b;
+    border-bottom: 3px solid #574b8b;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4.5%;
+  }
+
+  .ValSubtema {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    color: #162b4e;
+    font-family: Jost;
+    font-size: 26px;
+  }
+
+  .MisionFont {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 10% 0% 0% 0%;
+  }
+
+  .ListaVal {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 3% 0% 11.5% 8%;
+  }
+
+  .contPolit {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+
+  .contPolitText {
+    color: #abade7;
+    font-family: Jost;
+    font-size: 37px;
+  }
+
+  .contPolitP {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1%;
+    text-align: justify;
+  }
+
+  .contPolitPExp {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 22px;
+    text-align: justify;
+  }
+
+  .contPolitPExpDos {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 154px;
+  }
+
+  h3 {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 11px;
+  }
+
+  .Pos1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    justify-content: center;
+    margin-top: 16%;
+  }
+
+  .Pos2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #abade7;
+    font-family: Jost;
+    font-size: 37px;
+    margin-right: 10%;
+    margin-top: 2.7%;
+  }
+
+  .Pos3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    justify-content: center;
+    margin-top: 16%;
+  }
+
+  .Pos4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #abade7;
+    font-family: Jost;
+    font-size: 37px;
+    margin-right: 10%;
+    margin-top: 2.7%;
+  }
+
+  .Pos5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    justify-content: center;
+    margin-top: 16%;
+  }
+
+  .Pos6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #abade7;
+    font-family: Jost;
+    font-size: 37px;
+    margin-right: 10%;
+    margin-top: 2.7%;
+  }
+
+  .Pos7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: grid;
+    justify-content: center;
+    margin-top: 16%;
+  }
+
+  .Pos8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: #abade7;
+    font-family: Jost;
+    margin-right: 10%;
+    margin-top: 2.7%;
+  }
 }
 
 /*tablet*/
@@ -472,6 +654,188 @@
     font-weight: 300;
     line-height: normal;
   }
+
+  .Valores {
+    display: grid;
+    grid-column: 50% 50%;
+    border-top: 3px solid #574b8b;
+    border-bottom: 3px solid #574b8b;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4.5%;
+  }
+
+  .ValSubtema {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    color: #162b4e;
+    font-family: Jost;
+    font-size: 21px;
+  }
+
+  .MisionFont {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 10% 0% 0% 0%;
+  }
+
+  .ListaVal {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 3% 0% 11.5% 8%;
+  }
+
+  .contPolit {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+
+  .contPolitText {
+    color: #abade7;
+    font-family: Jost;
+    font-size: 32px;
+  }
+
+  .contPolitP {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 1%;
+    text-align: justify;
+  }
+
+  .contPolitPExp {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 17px;
+    text-align: justify;
+  }
+
+  .contPolitPExpDos {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 154px;
+  }
+
+  h3 {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 11px;
+  }
+
+  .Pos1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    justify-content: center;
+    margin-top: 16%;
+  }
+
+  .Pos2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #abade7;
+    font-family: Jost;
+    font-size: 32px;
+    margin-right: 10%;
+    margin-top: 2.7%;
+  }
+
+  .Pos3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    justify-content: center;
+    margin-top: 16%;
+  }
+
+  .Pos4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #abade7;
+    font-family: Jost;
+    font-size: 32px;
+    margin-right: 10%;
+    margin-top: 2.7%;
+  }
+
+  .Pos5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    justify-content: center;
+    margin-top: 16%;
+  }
+
+  .Pos6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #abade7;
+    font-family: Jost;
+    font-size: 32px;
+    margin-right: 10%;
+    margin-top: 2.7%;
+  }
+
+  .Pos7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: grid;
+    justify-content: center;
+    margin-top: 16%;
+  }
+
+  .Pos8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: #abade7;
+    font-family: Jost;
+    margin-right: 10%;
+    margin-top: 2.7%;
+  }
 }
 
 /*Movil*/
@@ -673,6 +1037,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: left;
   }
 
   .ParrTemTarj {
@@ -682,5 +1047,189 @@
     font-style: normal;
     font-weight: 200;
     line-height: normal;
+  }
+
+  .Valores {
+    display: grid;
+    grid-row: 20% 80%;
+    border-top: 3px solid #574b8b;
+    border-bottom: 3px solid #574b8b;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4.5%;
+  }
+
+  .ValSubtema {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    color: #162b4e;
+    font-family: Jost;
+    font-size: 15px;
+  }
+
+  .MisionFont {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10% 0% 0% 0%;
+  }
+
+  .ListaVal {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 3% 0% 11.5% 8%;
+  }
+
+  .contPolit {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+
+  .contPolitText {
+    color: #abade7;
+    font-family: Jost;
+    font-size: 22px;
+  }
+
+  .contPolitP {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+  }
+
+  .contPolitPExp {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  .contPolitPExpDos {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    margin-bottom: 154px;
+  }
+
+  h3 {
+    color: #757a4e;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .Pos1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    justify-content: center;
+    margin-top: 20%;
+    opacity: 0.15;
+  }
+
+  .Pos2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: #abade7;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2.7%;
+  }
+
+  .Pos3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    justify-content: center;
+    margin-top: 20%;
+    opacity: 0.15;
+  }
+
+  .Pos4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #abade7;
+    font-family: Jost;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2.7%;
+  }
+
+  .Pos5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    justify-content: center;
+    margin-top: 20%;
+    opacity: 0.15;
+  }
+
+  .Pos6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #abade7;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2.7%;
+  }
+
+  .Pos7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: grid;
+    justify-content: center;
+    margin-top: 20%;
+    opacity: 0.15;
+  }
+
+  .Pos8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: #abade7;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2.7%;
   }
 }

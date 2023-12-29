@@ -6,7 +6,6 @@
     grid-template-columns: 20% 80%;
     align-items: center;
     margin-top: 2%;
-
   }
 
   .logo {
@@ -35,7 +34,7 @@
     color: #fff;
     font-family: Jost;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     width: 75%;
     height: 100%;
     padding: 4% 0%;
@@ -58,7 +57,7 @@
     color: #fff;
     font-family: Jost;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     width: 75%;
     height: 100%;
     padding: 4% 0%;
@@ -82,7 +81,7 @@
     color: #fff;
     font-family: Jost;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     width: 75%;
     height: 100%;
     padding: 4% 0%;
@@ -106,7 +105,7 @@
     color: #fff;
     font-family: Jost;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     width: 75%;
     height: 100%;
     padding: 4% 0%;
@@ -130,7 +129,7 @@
     color: #fff;
     font-family: Jost;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     width: 75%;
     height: 100%;
     margin-left: -75%;
@@ -151,7 +150,7 @@
     background-size: cover;
     width: 100%;
     height: 889px;
-    margin: 2% 0%;
+    margin-top: 2%;
     display: grid;
     grid-template-rows: 15% 85%;
   }
@@ -168,6 +167,54 @@
     line-height: normal;
   }
 
+  /*SECCION NOSOTROS*/
+  .CuadroUno {
+    background: #757a4e;
+  }
+
+  .gpoSub {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtema {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 5.5%;
+    margin-left: 10.5%;
+  }
+
+  .parrafoCuadroUno {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #bd9865;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 140.625% */
+    margin-top: 4.5%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+  }
+
+  strong {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+  }
 }
 
 /*tablet*/
@@ -229,7 +276,6 @@
     border: none;
   }
 
-
   .btnNavTres {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -262,7 +308,6 @@
     border: none;
   }
 
-
   .btnNavCinco {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -284,8 +329,8 @@
     background-size: cover;
     width: 100%;
     height: 689px;
-    margin: 2% 0%;
     display: grid;
+    margin-top: 2%;
     grid-template-rows: 15% 85%;
   }
 
@@ -299,6 +344,55 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+
+  /*SECCION NOSOTROS*/
+  .CuadroUno {
+    background: #757a4e;
+  }
+
+  .gpoSub {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtema {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 5.5%;
+    margin-left: 10.5%;
+  }
+
+  .parrafoCuadroUno {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #bd9865;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 140.625% */
+    margin-top: 4.5%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+  }
+
+  strong {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
   }
 }
 
@@ -318,7 +412,6 @@
     height: auto;
     margin-left: 25%;
     margin-top: 5%;
-    border: 2px solid black;
   }
 
   .contBtns.contBtnsMobile {
@@ -407,7 +500,7 @@
     background-size: cover;
     width: 100%;
     height: 300px;
-    margin: 2% 0%;
+    margin-top: 2%;
     display: grid;
     grid-template-rows: 15% 85%;
   }
@@ -423,4 +516,55 @@
     font-weight: 500;
     line-height: normal;
   }
+
+/*SECCION NOSOTROS*/
+.CuadroUno {
+    background: #757a4e;
+  }
+
+  .gpoSub {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtema {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 5.5%;
+    margin-left: 10.5%;
+  }
+
+  .parrafoCuadroUno {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #bd9865;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; /* 140.625% */
+    margin-top: 4.5%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+  }
+
+  strong {
+    color: #bd9865;
+    font-family: Jost;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+  }
+}
+
+
 }

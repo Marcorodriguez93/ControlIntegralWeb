@@ -436,6 +436,63 @@
     margin-right: 10%;
     margin-top: 2.7%;
   }
+
+  /*SECCION COBERTURA*/
+
+  .CuadroUnoCob {
+    margin-top: 10%;
+    background: #4d4b50;
+  }
+
+  .gpoSubCob {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtemaCob {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 5.5% 0% 0% 11.7%;
+  }
+
+  .parrafoCuadroUnoCob {
+    color: #c0c0c0;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 140.625% */
+    margin: 1% 11.7% 5% 11.7%;
+  }
+
+  .justText {
+    margin: 5% 11.7% 0% 11.7%;
+  }
+
+  .TextMap {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    height: 914px;
+    width: 100%;
+  }
+
+  .Mapa {
+    margin-top: -5%;
+    background-image: url(Imagenes/mapa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 /*tablet*/
@@ -836,6 +893,63 @@
     margin-right: 10%;
     margin-top: 2.7%;
   }
+
+  /*SECCION COBERTURA*/
+
+  .CuadroUnoCob {
+    margin-top: 10%;
+    background: #4d4b50;
+  }
+
+  .gpoSubCob {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtemaCob {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 5.5% 0% 0% 11.7%;
+  }
+
+  .parrafoCuadroUnoCob {
+    color: #c0c0c0;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px; /* 140.625% */
+    margin: 1% 11.7% 5% 11.7%;
+  }
+
+  .justText {
+    margin: 5% 11.7% 0% 11.7%;
+  }
+
+  .TextMap {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: right;
+    height: 914px;
+    width: 100%;
+  }
+
+  .Mapa {
+    margin-top: -5%;
+    background-image: url(Imagenes/mapa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 /*Movil*/
@@ -1231,5 +1345,67 @@
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 2.7%;
+  }
+
+  /*SECCION COBERTURA*/
+
+  .CuadroUnoCob {
+    margin-top: 10%;
+    background: #4d4b50;
+  }
+
+  .gpoSubCob {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subtemaCob {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 5.5% 0% 0% 11.7%;
+  }
+
+  .parrafoCuadroUnoCob {
+    color: #c0c0c0;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 15px; /* 140.625% */
+    margin: 1% 11.7% 5% 11.7%;
+  }
+
+  .justText {
+    margin: 5% 11.7% 0% 11.7%;
+  }
+
+  .TextMap {
+    color: #c0c0c0;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: right;
+    height: 914px;
+    width: 100%;
+    line-height: 17px;
+  }
+
+  .Mapa {
+    margin-top: -5%;
+    background-image: url(Imagenes/mapa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .TextMobile {
+    font-size: 15px;
+    line-height: 15px;
   }
 }

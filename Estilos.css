@@ -619,7 +619,7 @@
     color: #1e1e1e;
     text-align: justify;
     font-family: Jost;
-    font-size: normal;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1176,44 +1176,60 @@
     line-height: 40px;
   }
 
+  .segundoCarrusel {
+    width: 100%;
+    height: 500px;
+  }
+
   .contCar {
     display: grid;
     grid-template-columns: auto auto;
     background: #574b8b;
   }
 
+  .trjs {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
   .imgSta {
     width: 63%;
     height: auto;
     margin: 0% 0% 10% 2%;
+    opacity: 0.5;
   }
 
   .imgStaDos {
     width: 100%;
     height: auto;
     margin: 0% 0% 10% 2%;
+    opacity: 0.5;
   }
 
   .subProd {
+    width: 100%;
     color: #fff;
-    text-align: start;
+    text-align: center;
     font-family: Jost;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     line-height: normal;
-    margin: 12% 0% 5% 0%;
+    text-align: center;
+    margin-top: 2%;
   }
 
   .temProd {
     color: #c0c0c0;
-    text-align: start;
+    text-align: center;
     font-family: Jost;
     font-size: 50px;
     font-style: normal;
     font-weight: 900;
-    line-height: 52px; /* 104% */
+    line-height: 42px; /* 104% */
     margin-bottom: 5%;
+    margin-left: -20%;
   }
 
   .parrProd {
@@ -1234,54 +1250,52 @@
   }
 
   .subProdEmp {
+    width: 100%;
     color: #000;
-    text-align: start;
+    text-align: center;
     font-family: Jost;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     line-height: normal;
-    margin: 12% 10% 5% 26.8%;
+    text-align: center;
+    margin-top: 2%;
   }
 
   .temProdEmp {
     color: #c0c0c0;
+    text-align: center;
     font-family: Jost;
     font-size: 50px;
     font-style: normal;
     font-weight: 900;
-    line-height: 52px; /* 104% */
-    margin: 0px 0px 35px 182px;
+    line-height: 50px; /* 104% */
+    margin-bottom: 5%;
+    margin-left: -20%;
   }
 
   .parrProdEmp {
-    color: #1e1e1e;
     text-align: justify;
+    color:#1e1e1e;
     font-family: Jost;
-    font-size: normal;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0px 0px 42px 182px;
+    margin: 0px 20% 20% 0%;
   }
 
   .bloques {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
     background: #574b8b;
-    height: auto;
-  }
-
-  .bloqueImagen {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    width: 100%;
-    height: auto;
-    margin: 10% 0% 10% 22.3%;
-    opacity: 0.1;
+    height: 500px;
   }
 
   .bloqueTexto {
+    grid-row-start: 1;
+    grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 3;
     width: 100%;
@@ -1291,14 +1305,17 @@
   .bloquesEmp {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
     background: white;
-    height: auto;
+    height: 500px;
   }
 
   .bloqueTextoEmp {
+    grid-row-start: 1;
+    grid-row-end: 2;
     grid-column-start: 1;
-    grid-column-end: 2;
-    margin-right: 5%;
+    grid-column-end: 3;
+    width: 100%;
     height: auto;
   }
 
@@ -1816,4 +1833,169 @@
     font-weight: 500;
     line-height: 25px;
   }
+
+  .segundoCarrusel {
+    width: 100%;
+    height: 500px;
+  }
+
+  .tercerCarrusel{
+    width: 100%;
+    height: 200px;
+    background: #000;
+    margin-top: -50%;
+  }
+
+  .contCar {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #574b8b;
+  }
+
+  .trjs {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .imgSta {
+    width: 63%;
+    height: auto;
+    margin: 0% 0% 10% 2%;
+    opacity: 0.5;
+  }
+
+  .imgStaDos {
+    width: 100%;
+    height: auto;
+    margin: 0% 0% 10% 2%;
+    opacity: 0.5;
+  }
+
+  .subProd {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .temProd {
+    color: #c0c0c0;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 104% */
+    margin-bottom: 5%;
+    margin-left: -20%;
+  }
+
+  .parrProd {
+    text-align: justify;
+    color: #fff;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 30% 0% 10%;
+  }
+
+  .contCarEmp {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: white;
+  }
+
+  .subProdEmp {
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .temProdEmp {
+    color: #c0c0c0;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 104% */
+    margin-bottom: 5%;
+    margin-left: -20%;
+  }
+
+  .parrProdEmp {
+    text-align: justify;
+    color:#1e1e1e;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 30% 0% 10%;
+  }
+
+  .bloques {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background: #574b8b;
+    height: 300px;
+  }
+
+  .bloqueTexto {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    height: auto;
+  }
+
+  .bloquesEmp {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background: white;
+    height: 300px;
+  }
+
+  .bloqueTextoEmp {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    height: auto;
+  }
+
+  .bloqueImagenEmp {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+  }
+
+  .carousel-control-next /*, .carousel-indicators */ {
+    filter: invert(100%);
+  }
+
+
 }

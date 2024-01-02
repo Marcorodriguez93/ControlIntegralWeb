@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="Estilos.css" type="text/css" />
-    <script src="PaginaWeb.js"></script>
+    <script src="funciones.js"></script>
     <title>Control Integral</title>
   </head>
   <body>
@@ -228,8 +228,7 @@
 
       <div class="segundoCarrusel">
         <div id="carPersona" class="carousel slide">
-
-          <div class="carousel-indicators" style="margin: 0% 0% 1% 0%;">
+          <div class="carousel-indicators" style="margin: 0% 0% 4% 0%">
             <button
               type="button"
               data-bs-target="#carPersona"
@@ -524,7 +523,6 @@
 
       <div class="tercerCarrusel">
         <div id="carEmp" class="carousel slide">
-          
           <div class="carousel-indicators" style="margin: 0% 0% 1% 0%">
             <button
               type="button"
@@ -646,7 +644,7 @@
                   </div>
                 </div>
                 <div class="bloqueImagenEmp">
-                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos"/>
+                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos" />
                 </div>
               </div>
             </div>
@@ -667,7 +665,7 @@
                   </div>
                 </div>
                 <div class="bloqueImagenEmp">
-                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos"/>
+                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos" />
                 </div>
               </div>
             </div>
@@ -689,7 +687,7 @@
                   </div>
                 </div>
                 <div class="bloqueImagenEmp">
-                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos"/>
+                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos" />
                 </div>
               </div>
             </div>
@@ -707,7 +705,7 @@
                   </div>
                 </div>
                 <div class="bloqueImagenEmp">
-                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos"/>
+                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos" />
                 </div>
               </div>
             </div>
@@ -725,7 +723,7 @@
                   </div>
                 </div>
                 <div class="bloqueImagenEmp">
-                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos"/>
+                  <img src="Imagenes/ProdEmpre.png" class="imgStaDos" />
                 </div>
               </div>
             </div>
@@ -756,6 +754,103 @@
             </button>
           </div>
         </div>
+      </div>
+    </section>
+
+    <div class="CuadroCuatro">
+      <h2 class="subtemaCont">CONTACTO</h2>
+    </div>
+
+    <section class="SegundoContactoC" id="Contacto">
+      <div class="CuadroUnoC">
+        <div class="telContain">
+          <h3 class="telCuadro">Teléfono</h3>
+          <h5 class="telCuadroT">(442) 193 25 89</h5>
+          <h5 class="telCuadroT">(55) 41 64 58 22</h5>
+          <h5 class="telCuadroT">(55) 41 60 01 65</h5>
+        </div>
+        <div class="dirContain">
+          <h3 class="telCuadro2">Ubicación</h3>
+          <h5 class="telCuadroT2">
+            Av. Ignacio Zaragoza #279, Int 207, Centro Querétaro, Qro. 76000
+          </h5>
+          <h5 class="telCuadroT2">
+            Rodolfo Gaona # 3, Piso 5, Lomas de Sotelo, CDMX, 11200
+          </h5>
+          <h5 class="telCuadroT2">
+            Rio Mississipi #49, Piso 14, Cuauhtémoc, CDMX, 06500
+          </h5>
+        </div>
+      </div>
+      <div class="CuadroDos">
+        <form name="Formulario" method="post" data-netlify="true">
+          <h5 for="nombre" class="infoFormUno">*Nombre</h5>
+          <input
+            id="nombre"
+            name="nombre"
+            type="text"
+            class="insertDat"
+            placeholder="Nombre Apellido"
+          />
+          <h5 for="telefono" class="infoFormUno">*Teléfono</h5>
+          <input
+            id="telefono"
+            name="telefono"
+            type="tel"
+            class="insertDat"
+            placeholder="10 digitos"
+          />
+          <h5 for="direccion" class="infoFormUno">Dirección</h5>
+          <input
+            id="direccion"
+            name="direccion"
+            type="text"
+            class="insertDat"
+          />
+          <h5 for="direccion" class="infoFormUno">Servicio</h5>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              onclick="Listado()"
+            >
+              Selecciona un servicio...
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" id="ES">Estudio socieconómico</a>
+              </li>
+              <li><a class="dropdown-item">Actualización de datos</a></li>
+              <li><a class="dropdown-item">Visita domiciliaria</a></li>
+              <li><a class="dropdown-item">Referencias laborales</a></li>
+              <li>
+                <a class="dropdown-item">Historial de seguridad social</a>
+              </li>
+              <li><a class="dropdown-item">Buró / Círculo de crédito</a></li>
+              <li><a class="dropdown-item">Buró legal</a></li>
+            </ul>
+          </div>
+          <h5 for="email" class="infoFormUno">Correo electrónico</h5>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            class="insertDat"
+            placeholder="tucorreo@ejemplo.com"
+          />
+          <input
+            type="submit"
+            type="submit"
+            value="Enviar"
+            class="btnSend"
+            onclick="Validacion()"
+          />
+        </form>
+      </div>
+      <div class="CuatroTres">
+        <h4><strong>CONTACTANOS.</strong></h4>
       </div>
     </section>
 

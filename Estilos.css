@@ -7,7 +7,6 @@
     align-items: center;
     margin-top: 2%;
   }
-
   .logo {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -143,7 +142,6 @@
     width: 75%;
     height: 100%;
   }
-
   /*SECCION HOME*/
   .Home {
     background-image: url(Imagenes/Fondo.png);
@@ -166,7 +164,6 @@
     font-weight: 700;
     line-height: normal;
   }
-
   /*SECCION NOSOTROS*/
   .CuadroUno {
     background: #757a4e;
@@ -436,9 +433,7 @@
     margin-right: 10%;
     margin-top: 2.7%;
   }
-
   /*SECCION COBERTURA*/
-
   .CuadroUnoCob {
     margin-top: 10%;
     background: #4d4b50;
@@ -493,9 +488,7 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-
   /*SECCION PRODUCTOS*/
-
   .cuadroDos {
     background: #4d4b50;
   }
@@ -674,7 +667,6 @@
   .carousel-control-next /*, .carousel-indicators */ {
     filter: invert(100%);
   }
-
   /*Segundo contacto*/
   .SegundoContactoC {
     display: grid;
@@ -890,10 +882,7 @@
     line-height: normal;
     margin: 36px 0px 125px 0px;
   }
-
   /*footer*/
-
-  /*Seccion footer*/
   .Piedepagina {
     display: grid;
     background: #3686a0;
@@ -981,7 +970,6 @@
     color: white;
   }
 }
-
 /*tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {
   /* ENCABEZADO*/
@@ -1087,7 +1075,6 @@
     margin-left: -75%;
     border: none;
   }
-
   /*SECCION HOME*/
   .Home {
     background-image: url(Imagenes/Fondo.png);
@@ -1110,7 +1097,6 @@
     font-weight: 500;
     line-height: normal;
   }
-
   /*SECCION NOSOTROS*/
   .CuadroUno {
     background: #757a4e;
@@ -1380,9 +1366,7 @@
     margin-right: 10%;
     margin-top: 2.7%;
   }
-
   /*SECCION COBERTURA*/
-
   .CuadroUnoCob {
     margin-top: 10%;
     background: #4d4b50;
@@ -1437,9 +1421,7 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-
   /*SECCION PRODUCTOS*/
-
   .cuadroDos {
     background: #4d4b50;
     margin-top: -40%;
@@ -1637,7 +1619,6 @@
   .carousel-control-next /*, .carousel-indicators */ {
     filter: invert(100%);
   }
-
   /*Segundo contacto*/
   .SegundoContactoC {
     display: grid;
@@ -1853,10 +1834,7 @@
     line-height: normal;
     margin: 36px 0px 125px 0px;
   }
-
   /*footer*/
-
-  /*Seccion footer*/
   .Piedepagina {
     display: grid;
     background: #3686a0;
@@ -1943,9 +1921,6 @@
   ::placeholder {
     color: white;
   }
-
-
-
 }
 
 /*Movil*/
@@ -2068,7 +2043,6 @@
     font-weight: 500;
     line-height: normal;
   }
-
   /*SECCION NOSOTROS*/
   .CuadroUno {
     background: #757a4e;
@@ -2342,9 +2316,7 @@
     margin-right: 3%;
     margin-top: 2.7%;
   }
-
   /*SECCION COBERTURA*/
-
   .CuadroUnoCob {
     margin-top: 10%;
     background: #4d4b50;
@@ -2404,9 +2376,7 @@
     font-size: 15px;
     line-height: 15px;
   }
-
   /*SECCION PRODUCTOS*/
-
   .cuadroDos {
     margin-top: -700px;
     background: #4d4b50;
@@ -2611,7 +2581,6 @@
   .carousel-control-next /*, .carousel-indicators */ {
     filter: invert(100%);
   }
-
   /*Segundo contacto*/
   .SegundoContactoC {
     display: grid;
@@ -2835,7 +2804,6 @@
     line-height: normal;
     margin: 36px 0px 125px 0px;
   }
-
 
   /*Seccion footer*/
   .Piedepagina {

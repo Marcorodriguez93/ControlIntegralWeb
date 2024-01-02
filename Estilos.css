@@ -890,6 +890,96 @@
     line-height: normal;
     margin: 36px 0px 125px 0px;
   }
+
+  /*footer*/
+
+  /*Seccion footer*/
+  .Piedepagina {
+    display: grid;
+    background: #3686a0;
+  }
+
+  .correo {
+    color: #fff;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+  }
+
+  .aviso {
+    color: #b7c0d7;
+    font-family: Jost;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+  }
+
+  .footerCiDos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .SocialMedEnl1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 30px;
+  }
+
+  .SocialMedEnl2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 30px;
+  }
+
+  .SocialMedEnl3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 30px;
+  }
+
+  .telefonos {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-top: -180px;
+    margin-left: 150px;
+  }
+
+  .AvisoPrivEnl {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 20px;
+  }
+
+  .encFooter {
+    color: #574b8b;
+    font-family: Jost;
+  }
+
+  .fijo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    opacity: 50%;
+    margin: 0px 15px 15px 0px;
+  }
+
+  input:focus {
+    background-color: white;
+  }
+
+  ::placeholder {
+    color: white;
+  }
 }
 
 /*tablet*/
@@ -1763,6 +1853,99 @@
     line-height: normal;
     margin: 36px 0px 125px 0px;
   }
+
+  /*footer*/
+
+  /*Seccion footer*/
+  .Piedepagina {
+    display: grid;
+    background: #3686a0;
+  }
+
+  .correo {
+    color: #fff;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+  }
+
+  .aviso {
+    color: #b7c0d7;
+    font-family: Jost;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+  }
+
+  .footerCiDos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .SocialMedEnl1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 30px;
+  }
+
+  .SocialMedEnl2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 30px;
+  }
+
+  .SocialMedEnl3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 30px;
+  }
+
+  .telefonos {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-top: -180px;
+    margin-left: 150px;
+  }
+
+  .AvisoPrivEnl {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 20px;
+  }
+
+  .encFooter {
+    color: #574b8b;
+    font-family: Jost;
+  }
+
+  .fijo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    opacity: 50%;
+    margin: 0px 15px 15px 0px;
+  }
+
+  input:focus {
+    background-color: white;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
+
+
 }
 
 /*Movil*/
@@ -2652,4 +2835,88 @@
     line-height: normal;
     margin: 36px 0px 125px 0px;
   }
+
+
+  /*Seccion footer*/
+  .Piedepagina {
+    display: grid;
+    background: #3686a0;
+  }
+
+  .correo {
+    color: #fff;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 15%;
+  }
+
+  .aviso {
+    color: #b7c0d7;
+    font-family: Jost;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 15%;
+  }
+
+  .footerCiDos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .SocialMedEnl1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 60%;
+  }
+
+  .SocialMedEnl2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 60%;
+  }
+
+  .SocialMedEnl3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 60%;
+  }
+
+  .AvisoPrivEnl {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 10%;
+  }
+
+  .encFooter {
+    color: #574b8b;
+    font-family: Jost;
+  }
+
+  .fijo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    opacity: .01;
+    margin: 0% 5% 5% 0%;
+  }
+  
+
+  input:focus {
+    background-color: white;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
 }

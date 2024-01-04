@@ -2071,7 +2071,7 @@
     grid-row-start: 2;
     grid-row-end: 3;
     color: #bd9865;
-    text-align: justify;
+    text-align: start;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
@@ -2874,10 +2874,9 @@
     bottom: 0;
     right: 0;
     width: 20px;
-    opacity: .01;
+    opacity: 0.01;
     margin: 0% 5% 5% 0%;
   }
-  
 
   input:focus {
     background-color: white;
@@ -2886,5 +2885,4 @@
   ::placeholder {
     color: white;
   }
-
 }
